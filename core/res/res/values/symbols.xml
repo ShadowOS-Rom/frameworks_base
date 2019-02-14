@@ -4051,4 +4051,12 @@
 
   <!-- FOD icon dimming -->
   <java-symbol type="bool" name="config_targetUsesInKernelDimming" />
+  <!-- Gradients Shit -->
+  <java-symbol type="color" name="gradient_start_light" />
+  <java-symbol type="color" name="gradient_start_dark" />
+  <java-symbol type="color" name="gradient_end_light" />
+  <java-symbol type="color" name="gradient_end_dark" />
+  <java-symbol type="color" name="gradient_start" />
+  <java-symbol type="color" name="gradient_end" />
+
 </resources>
