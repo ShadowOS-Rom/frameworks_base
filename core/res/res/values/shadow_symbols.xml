@@ -21,11 +21,6 @@
   <!-- Whether to cleanup fingerprints upon connection to the daemon and when user switches -->
   <java-symbol type="bool" name="config_cleanupUnusedFingerprints" />
 
-  <!-- App error dialog -->
-  <java-symbol type="id" name="aerr_copy" />
-  <java-symbol type="string" name="url_copy_success" />
-  <java-symbol type="string" name="url_copy_failed" />
-
   <!-- Vendor platform signatures -->
   <java-symbol type="array" name="config_vendorPlatformSignatures" />
 
@@ -51,13 +46,6 @@
 
   <!-- Whether device supports an alt. ambient display -->
   <java-symbol type="bool" name="config_alt_ambient_display"/>
-
-  <java-symbol type="string" name="reboot_to_recovery_title" />
-  <java-symbol type="string" name="reboot_to_recovery_message" />
-  <java-symbol type="string" name="reboot_to_bootloader_title" />
-  <java-symbol type="string" name="reboot_to_bootloader_message" />
-  <java-symbol type="string" name="reboot_title" />
-  <java-symbol type="string" name="reboot_message" />
 
   <!-- Whether device has dash charging support -->
   <java-symbol type="bool" name="config_hasDashCharger" />

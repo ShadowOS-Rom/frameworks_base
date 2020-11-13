@@ -5474,17 +5474,14 @@ public class PhoneWindowManager implements WindowManagerPolicy {
             mVrManagerInternal.addPersistentVrModeStateListener(mPersistentVrModeListener);
         }
 
-<<<<<<< HEAD
         mLineageHardware = LineageHardwareManager.getInstance(mContext);
         // Ensure observe happens in systemReady() since we need
         // LineageHardwareService to be up and running
         mSettingsObserver.observe();
-=======
         if (mHasAlertSlider) {
             mAlertSliderObserver = new AlertSliderObserver(mContext);
             mAlertSliderObserver.startObserving(com.android.internal.R.string.alert_slider_uevent_match_path);
         }
->>>>>>> e076636d3cc5... policy: Add support for device alert sliders.
 
         readCameraLensCoverState();
         updateUiMode();
