@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.internal.util.crdroid;
+package com.android.internal.util.shadow;
 
 import android.app.ActivityManager;
 import android.content.Context;
