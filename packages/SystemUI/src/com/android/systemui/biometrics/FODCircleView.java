@@ -230,8 +230,7 @@ public class FODCircleView extends ImageView {
         mPaintFingerprint.setColor(res.getColor(R.color.config_fodColor));
         mPaintFingerprint.setAntiAlias(true);
 
-        mColorBackground = res.getColor(R.color.config_fodColorBackground);
-        mPaintFingerprintBackground.setColor(mColorBackground);
+        mPaintFingerprintBackground.setColor(res.getColor(R.color.config_fodColorBackground));
         mTargetUsesInKernelDimming = res.getBoolean(com.android.internal.R.bool.config_targetUsesInKernelDimming);
         mPaintFingerprintBackground.setAntiAlias(true);
 
