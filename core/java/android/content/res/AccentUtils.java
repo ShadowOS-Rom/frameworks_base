@@ -44,6 +44,10 @@ public class AccentUtils {
         return getAccentColor(defaultColor, GRADIENT_COLOR_PROP);
     }
 
+    private AccentUtils() {
+        throw new IllegalStateException("Utility class");
+      }
+
     private static int getAccentColor(int defaultColor, String property) {
         try {
             String colorValue = SystemProperties.get(property, "-1");
